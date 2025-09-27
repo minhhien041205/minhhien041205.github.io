@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Giới thiệu bản thân</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+    <nav>
+        <a href="#gioi-thieu">Giới thiệu bản thân</a>
+        <a href="#giao-luu">Gửi thông tin và liên hệ cùng tôi</a>
+    </nav>
+
+    <div id="gioi-thieu">
+        <h1>Giới thiệu bản thân</h1>
+        <img src="mhien.jpg" alt="Ảnh đại diện của tôi" width="220" height="350">
+
+        <h3>Thông tin cơ bản</h2>
+        <ul>
+            <li>Họ và tên: Nguyễn Minh Hiển</li>
+            <li>Ngày sinh: 04/12/2005</li>
+            <li>Nghề nghiệp: Sinh viên</li>
+        </ul>
+
+        <h2>Sở thích</h2>
+        <ul>
+            <li>Nghe nhạc</li>
+            <li>Chơi thể thao</li>
+        </ul>
+
+        <h2>Món ăn</h3>
+        <ol>
+            <li>Bánh mì</li>
+            <li>Tacos</li>
+            <li>Hải sản</li>
+        </ol>
+        <h2>Giải trí</h3>
+        <h2>Trò chơi</h4>
+        <ul>
+            <li>Liên minh huyền thoại</li>
+            <li>Liên quân Mobile</li>
+            <li>Fifa</li>
+        </ul>
+        <h2>Bài hát yêu thích</h4>
+        <ul>
+            <li>Biệt giang hồ</li>
+            <li>Đạo làm con</li>
+            <li>Gánh mẹ</li>
+        </ul>
+
+        <h4>Mục tiêu của bản thân</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Mục tiêu</th>
+                    <th>Thời hạn</th>
+                    <th>Hoàn thành</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Tốt nghiệp 3,5 năm </td>
+                    <td>01/01/2027</td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>Có 1 tỷ năm 21 tuổi</td>
+                    <td>31/12/2026</td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>Có vợ</td>
+                    <td>31/12/2035</td>
+                    <td><input type="checkbox"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div id="giao-luu">
+        <h1>Gửi thông tin và giao lưu cùng tôi</h1>
+        <form>
+            <label for="ho-ten">Họ và tên:</label><br>
+            <input type="text" id="ho-ten" name="ho-ten"><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="tin-nhan">Tin nhắn:</label><br>
+            <textarea id="tin-nhan" name="tin-nhan" rows="4" cols="50"></textarea><br><br>
+
+            <label>Giới tính:</label><br>
+            <input type="radio" id="nam" name="gioi-tinh" value="Nam">
+            <label for="nam">Nam</label>
+            <input type="radio" id="nu" name="gioi-tinh" value="Nữ">
+            <label for="nu">Nữ</label><br><br>
+
+            <label>Sở thích:</label><br>
+            <input type="checkbox" id="nghe-nhac" name="so-thich" value="Nghe nhạc">
+            <label for="nghe-nhac">Nghe nhạc</label>
+            <input type="checkbox" id="boi-loi" name="so-thich" value="Bơi lội">
+            <label for="boi-loi">Bơi lội</label>
+            <input type="checkbox" id="bien" name="so-thich" value="Biển">
+            <label for="bien">Biển</label><br><br>
+
+            <label for="nganh">Ngành:</label><br>
+            <select id="nganh" name="nganh">
+                <option value="Khoa học Máy tính">Khoa học Máy tính</option>
+                <option value="Kỹ thuật Phần mềm">Kỹ thuật Phần mềm</option>
+                <option value="Hệ thống Thông tin">Hệ thống Thông tin</option>
+            </select><br><br>
+
+            <input type="submit" value="Gửi">
+        </form>
+    </div>
+
+    <footer>
+        <p>@2024 23520462 Nguyễn Minh Hiển</p>
+    </footer>
+
+</body>
+</html>
